@@ -205,7 +205,7 @@ class Snake
         pos getPosition(const int index) const { return positions[index]; }
 
         // объявления
-        void checkEatingApple(Apple & apple);
+        void checkEatingApple(Apple& apple);
 };
 
 
